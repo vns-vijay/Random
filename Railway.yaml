@@ -1,0 +1,4 @@
+services:
+  - name: web
+    env: python=3.9
+    start: uvicorn main:app
